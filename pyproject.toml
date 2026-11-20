@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SimplePython-sp"
+version = "3.1.0"
+description = "A clean, beginner-friendly Python library that simplifies everyday tasks with just `import SimplePython`."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Rhymoapp" }
+]
+
+[tool.setuptools]
+py-modules = ["SimplePython"]
